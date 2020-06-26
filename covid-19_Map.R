@@ -8,7 +8,7 @@ install_github('dkahle/ggmap')
 library('ggmap')
 
 # google API KEY
-register_google(key='AIzaSyDg4nbtILtXctRHeHWz1YWhz4Bd8ADG8fk')
+register_google(key=${your API Key})
 
 library('rvest')
 ggmap(get_map(location='south korea', zoom=7))
